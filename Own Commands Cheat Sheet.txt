@@ -1,0 +1,106 @@
+
+$ cd ..
+$ cd "Secret Folder"
+$ cd documents
+
+$ man flag
+$ man nmap
+
+$ cat flaggedfile.txt
+
+$ flag flaggedfile.txt
+$ flag -sV "HTTP/0.9"
+$ flag -sV "IMAP4v1"
+$ flag -oV "Leap 15.4"
+$ flag -u "charlotte_rice_507"
+$ flag -sL "SSH" HTTP "IMAP4" HTTPS "DHCP"
+
+$ ping 192.168.1.53
+$ ifconfig
+
+$ whoami
+$ pwd
+$ ls
+$ ll
+
+$ ssh pamela_lopez_716@192.168.1.116
+
+$ nmap 191.146.46.244
+$ nmap 10.0.0.0/8
+$ nmap -p 192.168.1.174
+$ nmap -Pn 192.168.188.177
+$ nmap -Pn -sV 192.168.188.177
+$ nmap -sV 191.249.77.61
+$ nmap -sV -p 80 192.168.1.53
+$ nmap -O 191.146.46.244
+$ nmap -O -sV 191.146.46.244
+$ nmap -sV -O -Pn 192.168.1.116
+$ nmap -sV -O -Pn -p 22 192.168.1.116
+
+$ cat michelle_pc_Hash.txt
+$ echo fd177383947517081f00ed6f86cdd41895bda576de01ded6f5d89e063c751685 > michelle.txt
+$ john --wordlist=/wordlist.lst michelle.txt
+$ john --wordlist=/Documents/Wordlists/rockyou.txt hash.txt 
+$ john --wordlist=/Documents/Wordlists/passwordMed.txt hash.txt 
+
+$ hydra ssh://10.0.221.239 -l jordan_moreno -P /Documents/Wordlists/rockyou.txt 
+$ hydra -l hal3000 -P /Documents/rockyou.txt ssh://10.199.209.167
+$ hydra -L /Documents/usernameLong.txt -p U92XDswy ssh://10.0.88.234
+$ hydra -L /Documents/usernameMed.txt -P /Documents/passwordMed.txt ssh://10.71.150.176
+
+$ file *
+$ file imazip.zip
+$ file -z imazip.zip
+$file - b0f2d519ccae5bf1435264e0979770ceW
+$ file /Home/Downloads/Example.bin
+$ file "/Home/Applications/Executable Example"
+
+$ unzip zipped.zip
+$ unzip alice_pc.png
+
+$ man dirb
+$ dirb http://192.168.1.143
+$ dirb https://corwinbanking.io/ /Home/Documents/SavedEmails/Inbox/dirbizthaword.txt 
+
+$ curl 192.168.1.132
+$ curl http://catalyst.com/
+$ curl http://catalyst.com/about.html
+$ curl https://corwinbanking.io/creds.bak
+$ curl https://corwinbanking.io/html/products/crypto/ShadowCoin/ShadowCoin.html
+
+
+@web-proxy:~/.www/proxy settings$ cat proxy.pac
+@web-serv:~/.www/php-admin$ cat "dns.txt"
+@web-serv:~/.www/logs$ cat "int_app_access.log"
+
+$ ./loic -h
+$ ./roninnitro -h
+
+$ iptables -h
+$ iptables -L
+$ iptables -A INPUT -p tcp --dport 2245 -s 192.168.1.59 -j DROP
+$ iptables -A INPUT -p tcp --dport 2245 -s 192.168.1.110 -j DROP
+$ iptables -A INPUT -p tcp --dport 2245 -s 192.168.1.78 -j DROP
+
+$ netstat 
+$ netstat -h
+
+$ kill -9 213
+
+
+$ zion /Documents/Control/346a97200R3D00DAwN00be84aefbf552d626c4c5c3.tar6h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
