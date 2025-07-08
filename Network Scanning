@@ -1,1 +1,13 @@
 
+-- Network Scanning --
+
+$ whoami
+$ ifconfig
+
+$ ping 192.168.1.178
+
+$ nmap 192.168.1.0/24
+$ nmap -sV -O -Pn -p 22 hostname.com
+
+> ssh kunwu@192.168.1.186
+password: spider
