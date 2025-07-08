@@ -1,0 +1,35 @@
+
+$ flag flaggedfile.txt
+da6c30964246a8088d2e3169f60912e13bf2ad37061dbde77b96cbe0459cbf68
+
+$ ssh pamela_lopez_716@192.168.1.116
+password: kZHQrYac8K9evune
+
+$ man flag
+$ flag -sV "HTTP/0.9"
+$ flag -sV "IMAP4v1"
+$ flag -oV "Leap 15.4"
+$ flag -u "charlotte_rice_507"
+$ flag -sL "SSH" HTTP "IMAP4" HTTPS "DHCP"
+
+$ ping 192.168.1.53
+
+$ nmap 191.146.46.244
+
+$ nmap -sV 191.249.77.61
+$ nmap -sV -p 80 192.168.1.53
+
+$ nmap -Pn 192.168.188.177
+$ nmap -Pn -sV 192.168.188.177
+
+$ nmap -O 192.168.225.240
+$ nmap -O -sV 191.146.46.244
+
+$ nmap -sV -O -Pn 192.168.1.145
+$ nmap -sV -O -Pn -p 22 192.168.1.116
+
+
+
+pamela_lopez_716@pamela_pc:~/Trash$ flag flaggedfile.txt
+flag: file flag detected. Content:
+127ba675550227835d59725f703fb4b6be11e9f8042e8069d89e8dff95309903
