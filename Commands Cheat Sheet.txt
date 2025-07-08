@@ -25,6 +25,7 @@ $ ll
 
 $ ssh pamela_lopez_716@192.168.1.116
 
+$ man nmap
 $ nmap 191.146.46.244
 $ nmap 10.0.0.0/8
 $ nmap -p 192.168.1.174
@@ -51,7 +52,7 @@ $ hydra -L /Documents/usernameMed.txt -P /Documents/passwordMed.txt ssh://10.71.
 $ file *
 $ file imazip.zip
 $ file -z imazip.zip
-$file - b0f2d519ccae5bf1435264e0979770ceW
+$ file - b0f2d519ccae5bf1435264e0979770ceW
 $ file /Home/Downloads/Example.bin
 $ file "/Home/Applications/Executable Example"
 
@@ -62,6 +63,7 @@ $ man dirb
 $ dirb http://192.168.1.143
 $ dirb https://corwinbanking.io/ /Home/Documents/SavedEmails/Inbox/dirbizthaword.txt 
 
+$ man curl
 $ curl 192.168.1.132
 $ curl http://catalyst.com/
 $ curl http://catalyst.com/about.html
