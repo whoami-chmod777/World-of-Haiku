@@ -1,2 +1,11 @@
 
 -- Network & System Monitoring --
+
+$ man ping
+$ man curl
+
+$ ping 191.192.1.183
+
+$ curl http://191.192.1.183
+$ curl http://catalyst.com/
+$ curl http://catalyst.com/services.html
