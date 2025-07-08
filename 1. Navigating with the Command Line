@@ -1,0 +1,15 @@
+
+--- Navigating with the Command Line ---
+
+$ cd
+$ pwd
+$ ls
+$ cat
+
+$ cd ..
+$ cd Documents/
+
+$ cat personalData.data
+$ man cd
+
+$ whoami
