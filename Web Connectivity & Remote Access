@@ -1,1 +1,18 @@
+ping 191.192.1.13
 
+curl http://191.192.1.13
+curl http://191.192.1.13/robots.txt
+curl http://191.192.1.13/SSHAddresses/
+
+ssh wicked@192.168.1.92
+password: panda
+
+unzip zipped.zip
+cat "Access Code Update.eml"
+cat "Password Standards.xml"
+
+nmap -sV -O -Pn 192.168.1.147
+
+file 346a97200R3D00DAwN00be84aefbf552d626c4c5c3.tar6h
+zion 346a97200R3D00DAwN00be84aefbf552d626c4c5c3.tar6h
+cat 346a97200R3D00DAwN00be84aefbf552d626c4c5c3.tar6h
