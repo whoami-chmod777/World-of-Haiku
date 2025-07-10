@@ -1,0 +1,27 @@
+
+Description
+Capture the flag for dojo missions. Input without parameters is for flagged files. 
+Example: flag flag_file_name.ext
+
+Parameters
+
+-sV
+Capture the service version. Use quotes if version contains whitespaces. 
+Example: flag -sV "1.0.2 LTS"
+
+-u
+Capture the user name of device. Use quotes if user name contains whitespaces. 
+Example: flag -u "john_nichols_96"
+
+-oV
+Capture the operating system version. Use quotes if version contains whitespaces. 
+Example: flag -oV "22.04 LTS"
+
+-sL
+Capture the services list. Use quotes if service name contains whitespaces. Divide services name by whitespaces.
+Example: flag -sL "TFTP" SSH "DHCP"
+
+-rS
+Capture the random String flag. Use quotes if string contains whitespaces. 
+Example: flag -rS "Hello world"
+Example: flag -rS MyFlag
