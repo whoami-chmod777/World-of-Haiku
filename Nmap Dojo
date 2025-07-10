@@ -29,7 +29,7 @@ $ nmap -sV -O -Pn 192.168.1.145
 $ nmap -sV -O -Pn -p 22 192.168.1.116
 
 
-
 pamela_lopez_716@pamela_pc:~/Trash$ flag flaggedfile.txt
 flag: file flag detected. Content:
 127ba675550227835d59725f703fb4b6be11e9f8042e8069d89e8dff95309903
+
