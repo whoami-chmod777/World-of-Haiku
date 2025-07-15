@@ -2,3 +2,9 @@
 curl -O https://www.openwall.com/john/wordlist.lst
 
 
+$ echo eee5a461e9eb67d32bcb5cf9b687cba7a95eacf307ef0efb015665454c6e78be > madison.txt
+$ john --wordlist=wordlist.lst madison.txt 
+
+
+john passwordhash.txt
+john --wordlist=/Documents/passwordMed.txt hash.txt
